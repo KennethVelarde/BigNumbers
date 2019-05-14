@@ -1,0 +1,216 @@
+\hypertarget{class_big_numbers_1_1_big_numbers}{}\section{Big\+Numbers\+::Big\+Numbers Class Reference}
+\label{class_big_numbers_1_1_big_numbers}\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_1_1_digit_overflow_exception}{Digit\+Overflow\+Exception}}
+\begin{DoxyCompactList}\small\item\em thrown if number of digits is over 1000 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_1_1_divide_by_zero_exception}{Divide\+By\+Zero\+Exception}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a87037d5faa0bf5253b6e8fc7fc54324c}{Big\+Numbers}} ()
+\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a4dcfaac3c63a377ef04a6b5e6bd2fc68}{Big\+Numbers}} (std\+::string)
+\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a5083165e6ad1d017a4cf2e470c66bdff}{operator+}} (\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&val)
+\begin{DoxyCompactList}\small\item\em if both numbers are negative, then answer is negative, \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_ab72d9ad5f9eafd871a6c886aa030363b}{operator -\/}} (\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&val)
+\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_afca660b90d4ff79406328e6c47b35f02}{operator $\ast$}} (\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&val)
+\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_ae71572550fb1f47d3659cf2cefd04534}{operator/}} (\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&val)
+\begin{DoxyCompactList}\small\item\em Operator overload for multiplication operator. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a1d560da134a5d46f0b98d5d1d2133f86}{operator \%}} (\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&val)
+\begin{DoxyCompactList}\small\item\em operator overload for mod operator \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a824d0548f48150ceeb4bcf9bc818e7ef}{adder}} (std\+::vector$<$ int $>$ vector, std\+::vector$<$ int $>$ values, std\+::vector$<$ int $>$ vector1)
+\begin{DoxyCompactList}\small\item\em method for adding two vectors \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_af24675c9a4a5ae6c335d9b4c902e02ee}{reverser}} (std\+::vector$<$ int $>$ vector)
+\begin{DoxyCompactList}\small\item\em a method that takes in a vector and reverses it \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a48e2f552329954eff2e4f1d2425ed511}{greater}} (std\+::vector$<$ int $>$ vector, std\+::vector$<$ int $>$ values)
+\item 
+void \mbox{\hyperlink{class_big_numbers_1_1_big_numbers_a0a5dfb5ca85f36e40c2c2f068f66d05a}{subtracter}} (std\+::vector$<$ int $>$ vector, std\+::vector$<$ int $>$ values, std\+::vector$<$ int $>$ vector1)
+\item 
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a0484ad3d959ad272b50c6229da2f64c9}\label{class_big_numbers_1_1_big_numbers_a0484ad3d959ad272b50c6229da2f64c9}} 
+bool {\bfseries lesser} (std\+::vector$<$ int $>$ vector, std\+::vector$<$ int $>$ v2)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_adbe7d06479f9e3e4d21a37875e8977a5}\label{class_big_numbers_1_1_big_numbers_adbe7d06479f9e3e4d21a37875e8977a5}} 
+std\+::vector$<$ int $>$ {\bfseries values}
+\item 
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a2d431ac02832d25cbbdafb8391ef78f3}\label{class_big_numbers_1_1_big_numbers_a2d431ac02832d25cbbdafb8391ef78f3}} 
+std\+::string {\bfseries num}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a87037d5faa0bf5253b6e8fc7fc54324c}\label{class_big_numbers_1_1_big_numbers_a87037d5faa0bf5253b6e8fc7fc54324c}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!BigNumbers@{BigNumbers}}
+\index{BigNumbers@{BigNumbers}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{BigNumbers()}{BigNumbers()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Big\+Numbers\+::\+Big\+Numbers\+::\+Big\+Numbers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+default constructor for \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}}
+
+initializes vector with 0\textquotesingle{}s \mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a4dcfaac3c63a377ef04a6b5e6bd2fc68}\label{class_big_numbers_1_1_big_numbers_a4dcfaac3c63a377ef04a6b5e6bd2fc68}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!BigNumbers@{BigNumbers}}
+\index{BigNumbers@{BigNumbers}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{BigNumbers()}{BigNumbers()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Big\+Numbers\+::\+Big\+Numbers\+::\+Big\+Numbers (\begin{DoxyParamCaption}\item[{std\+::string}]{val }\end{DoxyParamCaption})}
+
+constructor of \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} with a string representing the value to be manipulated 
+\begin{DoxyParams}{Parameters}
+{\em val} & representing value being inputted and to be manipulated \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a824d0548f48150ceeb4bcf9bc818e7ef}\label{class_big_numbers_1_1_big_numbers_a824d0548f48150ceeb4bcf9bc818e7ef}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!adder@{adder}}
+\index{adder@{adder}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{adder()}{adder()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::\+Big\+Numbers\+::adder (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vectora,  }\item[{std\+::vector$<$ int $>$}]{vectorb,  }\item[{std\+::vector$<$ int $>$}]{vectorc }\end{DoxyParamCaption})}
+
+
+
+method for adding two vectors 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vectora} & first vector \\
+\hline
+{\em vectorb} & second vector \\
+\hline
+{\em vectorc} & third vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a48e2f552329954eff2e4f1d2425ed511}\label{class_big_numbers_1_1_big_numbers_a48e2f552329954eff2e4f1d2425ed511}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!greater@{greater}}
+\index{greater@{greater}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{greater()}{greater()}}
+{\footnotesize\ttfamily bool Big\+Numbers\+::\+Big\+Numbers\+::greater (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{first,  }\item[{std\+::vector$<$ int $>$}]{second }\end{DoxyParamCaption})}
+
+Method that determines which vector is larger 
+\begin{DoxyParams}{Parameters}
+{\em first} & vector to be compared \\
+\hline
+{\em second} & vector to be compared to the first \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if first vector is larger and false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a1d560da134a5d46f0b98d5d1d2133f86}\label{class_big_numbers_1_1_big_numbers_a1d560da134a5d46f0b98d5d1d2133f86}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!operator \%@{operator \%}}
+\index{operator \%@{operator \%}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{operator \%()}{operator \%()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} Big\+Numbers\+::\+Big\+Numbers\+::operator \% (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&}]{val }\end{DoxyParamCaption})}
+
+
+
+operator overload for mod operator 
+
+operator overload for mod operator
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & the other vector to be manipulated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Big\+Number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_afca660b90d4ff79406328e6c47b35f02}\label{class_big_numbers_1_1_big_numbers_afca660b90d4ff79406328e6c47b35f02}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!operator $\ast$@{operator $\ast$}}
+\index{operator $\ast$@{operator $\ast$}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{operator $\ast$()}{operator *()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} Big\+Numbers\+::\+Big\+Numbers\+::operator $\ast$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&}]{val }\end{DoxyParamCaption})}
+
+operator overload for multiplication operator \mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_ab72d9ad5f9eafd871a6c886aa030363b}\label{class_big_numbers_1_1_big_numbers_ab72d9ad5f9eafd871a6c886aa030363b}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!operator -\/@{operator -\/}}
+\index{operator -\/@{operator -\/}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{operator -\/()}{operator -()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} Big\+Numbers\+::\+Big\+Numbers\+::operator -\/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&}]{val }\end{DoxyParamCaption})}
+
+operator overload for subtraction operator \mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a5083165e6ad1d017a4cf2e470c66bdff}\label{class_big_numbers_1_1_big_numbers_a5083165e6ad1d017a4cf2e470c66bdff}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!operator+@{operator+}}
+\index{operator+@{operator+}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} Big\+Numbers\+::\+Big\+Numbers\+::operator+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&}]{val }\end{DoxyParamCaption})}
+
+
+
+if both numbers are negative, then answer is negative, 
+
+operator overload for addition operator
+
+operator overloaded for addition operator
+
+Adding of \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} implementation. else the answer is positive \mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_ae71572550fb1f47d3659cf2cefd04534}\label{class_big_numbers_1_1_big_numbers_ae71572550fb1f47d3659cf2cefd04534}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!operator/@{operator/}}
+\index{operator/@{operator/}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} Big\+Numbers\+::\+Big\+Numbers\+::operator/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers_1_1_big_numbers}{Big\+Numbers}} \&}]{val }\end{DoxyParamCaption})}
+
+
+
+Operator overload for multiplication operator. 
+
+operator overload for division operator
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+operator overload for division operator 
+\begin{DoxyParams}{Parameters}
+{\em val} & the other vector to be manipulated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Big\+Number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_af24675c9a4a5ae6c335d9b4c902e02ee}\label{class_big_numbers_1_1_big_numbers_af24675c9a4a5ae6c335d9b4c902e02ee}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!reverser@{reverser}}
+\index{reverser@{reverser}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{reverser()}{reverser()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::\+Big\+Numbers\+::reverser (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vector }\end{DoxyParamCaption})}
+
+
+
+a method that takes in a vector and reverses it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em takes} & in a vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_big_numbers_1_1_big_numbers_a0a5dfb5ca85f36e40c2c2f068f66d05a}\label{class_big_numbers_1_1_big_numbers_a0a5dfb5ca85f36e40c2c2f068f66d05a}} 
+\index{BigNumbers::BigNumbers@{BigNumbers::BigNumbers}!subtracter@{subtracter}}
+\index{subtracter@{subtracter}!BigNumbers::BigNumbers@{BigNumbers::BigNumbers}}
+\subsubsection{\texorpdfstring{subtracter()}{subtracter()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::\+Big\+Numbers\+::subtracter (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vectora,  }\item[{std\+::vector$<$ int $>$}]{vectorb,  }\item[{std\+::vector$<$ int $>$}]{vectorc }\end{DoxyParamCaption})}
+
+method for subtracting two vectors 
+\begin{DoxyParams}{Parameters}
+{\em vectora} & first vector \\
+\hline
+{\em vectorb} & second vector \\
+\hline
+{\em vectorc} & holds the manipulated values \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/kenneth-\/matthewvelarde/\+Desktop/test\+Xcode/\+Big\+Numbers/Big\+Numbers.\+h\item 
+/\+Users/kenneth-\/matthewvelarde/\+Desktop/test\+Xcode/\+Big\+Numbers/Big\+Numbers.\+cpp\end{DoxyCompactItemize}
